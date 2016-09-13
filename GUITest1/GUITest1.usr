@@ -39,13 +39,10 @@ Version=12.54
 Database=
 File Content=
 Insight=
-Mobile=
-Qt=
 Windows Applications=
 TEA=
-Web=
+UI Automation=
 Windows Runtime=
-WPF=
 XML=
 
 [ExtraFiles]

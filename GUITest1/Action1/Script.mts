@@ -13,4 +13,4 @@ WpfWindow("HP MyFlight Sample Application").WpfButton("SELECT FLIGHT").Click
 'sgdfgs WpfWindow("HP MyFlight Sample Application").WpfButton("ORDER").Click
 WpfWindow("HP MyFlight Sample Application").Close @@ hightlight id_;_1320056_;_script infofile_;_ZIP::ssf16.xml_;_
 
-' test UFT commits dfdfgdasdasd
+' test another account

@@ -6,12 +6,11 @@ WpfWindow("HP MyFlight Sample Application").WpfComboBox("fromCity").Select "Fran
 WpfWindow("HP MyFlight Sample Application").WpfComboBox("toCity").Select "London" @@ hightlight id_;_1889915416_;_script infofile_;_ZIP::ssf10.xml_;_
 WpfWindow("HP MyFlight Sample Application").WpfButton("FIND FLIGHTS").Click @@ hightlight id_;_1889914264_;_script infofile_;_ZIP::ssf11.xml_;_
 'erterterWpfWindow("HP MyFlight Sample Application").WpfTable("flightsDataGrid").SelectCell 2,1 @@ hightlight id_;_2121211664_;_script infofile_;_ZIP::ssf12.xml_;_
-WpfWindow("HP MyFlight Sample Application").WpfButton("SELECT FLIGHT").Click @@ hightlight id_;_1889916760_;_script infofile_;_ZIP::ssf13.xml_;_
-<<<<<<< Updated upstream
+WpfWindow("HP MyFlight Sample Application").WpfButton("SELECT FLIGHT").Click
 'pfWindow("HP MyFlight Sample Application").WpfEdit("passengerName").Set "john" @@ hightlight id_;_2105315512_;_script infofile_;_ZIP::ssf14.xml_;_
-'WpfWindow("HP MyFlight Sample Application").WpfButton("ORDER").Click @@ hightlight id_;_2034886160_;_script infofile_;_ZIP::ssf15.xml_;_
-=======
+'WpfWindow("HP MyFlight Sample Application").WpfButton("ORDER").Click
 'sgfdsgret WpfWindow("HP MyFlight Sample Application").WpfEdit("passengerName").Set "john" @@ hightlight id_;_2105315512_;_script infofile_;_ZIP::ssf14.xml_;_
-'sgdfgs WpfWindow("HP MyFlight Sample Application").WpfButton("ORDER").Click @@ hightlight id_;_2034886160_;_script infofile_;_ZIP::ssf15.xml_;_
->>>>>>> Stashed changes
+'sgdfgs WpfWindow("HP MyFlight Sample Application").WpfButton("ORDER").Click
 WpfWindow("HP MyFlight Sample Application").Close @@ hightlight id_;_1320056_;_script infofile_;_ZIP::ssf16.xml_;_
+
+' test UFT commits

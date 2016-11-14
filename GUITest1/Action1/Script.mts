@@ -14,3 +14,5 @@ WpfWindow("HP MyFlight Sample Application").WpfButton("SELECT FLIGHT").Click
 WpfWindow("HP MyFlight Sample Application").Close @@ hightlight id_;_1320056_;_script infofile_;_ZIP::ssf16.xml_;_
 
 ' test another account
+
+'sdfadsfas

@@ -37,12 +37,25 @@ Version=14.0
 
 [TulipAddins]
 Database=
+Delphi=
 File Content=
+Flex=
 Insight=
+Java=
+Mobile=
 Oracle=
+PeopleSoft=
+PowerBuilder=
+Qt=
+SAP=
+Siebel=
 Windows Applications=
+Stingray=
 TEA=
+Terminal Emulators=
+VisualAge Smalltalk=
 Web=
+WPF=
 XML=
 
 [ExtraFiles]

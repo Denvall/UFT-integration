@@ -90,7 +90,7 @@
             
         
         	_flow.StartActivity1 = new HP.ST.Ext.BasicActivities.StartActivity(_context,"StartActivity1");
-            _flow.Loop2 = new HP.ST.Fwk.RunTimeFWK.CompositeActivities.Loop<Loop2Input>(_context,"Loop2",LoopType.DoWhile);
+            _flow.Loop2 = new HP.ST.Fwk.RunTimeFWK.CompositeActivities.Loop<Loop2Input>(_context,"Loop2",LoopType.For);
             _flow.EndActivity3 = new HP.ST.Ext.BasicActivities.EndActivity(_context,"EndActivity3");
             _flow.Sequence4 = new HP.ST.Fwk.RunTimeFWK.CompositeActivities.Sequence(_context,"Sequence4");
             _flow.StartActivity1.Comment = @"";
@@ -112,12 +112,8 @@
             _flow.StartActivity1.JMS.UserTimeout = @"20";
             _flow.StartActivity1.JMS.GenerateAutoSelector = @"No";
             this.Activities.Add (_flow.StartActivity1);
-            _flow.Loop2.ConditionAsString = @"Is False";
-            _flow.Loop2.NumberOfIterations = (int)1;
-            _flow.Loop2.Condition += delegate(object sender,STActivityBaseEventArgs e)
-            {
-            return false;
-            };
+            _flow.Loop2.ConditionAsString = @"Run for 3 iterations";
+            _flow.Loop2.NumberOfIterations = (int)3;
             _flow.Loop2.Comment = @"";
             _flow.Loop2.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_loop.png";
             _flow.Loop2.Name = @"Test Flow";

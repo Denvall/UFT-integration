@@ -14,6 +14,18 @@ namespace Script
     [Serializable()]
     public class TestUserCode : TestEntities
     {
-    }
+    	
+    	/// <summary>
+    	/// Handler for the Loop2 Activity¡¯s Condition event.
+    	/// </summary>
+    	/// <param name=\"sender\">The activity object that raised the Condition event.</param>
+    	/// <param name=\"args\">The event arguments passed to the activity.</param>
+    	/// Use this.Loop2 to access the Loop2 Activity's context, including input and output properties.
+    	public bool Loop2_OnCondition(object sender, STActivityBaseEventArgs args)
+    	{
+    		//TODO: Add your code here...
+    		return false;
+    	}
+}
 
 }

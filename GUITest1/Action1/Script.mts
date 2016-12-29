@@ -19,3 +19,4 @@ WpfWindow("HP MyFlight Sample Application").Close @@ hightlight id_;_1320056_;_s
 
 
 sdasd
+RunAPITest "APITest1"
